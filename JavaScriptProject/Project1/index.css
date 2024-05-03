@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.id1{
+    height: 90px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(3,37,65);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+h1{
+color: rgb(37,186,211);
+}
+
+body{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 10px;
+    box-shadow: 10px 10px solid red;
+}
+.card{
+    top: 10px;
+    border: 2px 2px solid black;
+    border-radius: 20px ;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    background:rgb(243, 239, 239)
+
+}
+img{
+    height: 200px;
+    width: 1900px;
+    border-radius: 15px 15px 0px 0px;
+}
+.title{
+    height: 15x;
+    overflow: hidden;
+    font-weight: bold;
+}
+.des{
+    height: 57px;
+    overflow: hidden;
+}
+.pri{
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    padding-left:10px ;
+}
+div i{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(122,122,124);
+    font-size: 25px;
+    position: relative;
+    left: 260px;
+    bottom: 50px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 50px 20px black;
+    position: relative;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cards{
+    height: 80px;
+    width: 100%;
+    background: black;
+    color: aliceblue;
+    display:flex;
+  justify-content: space-evenly;
+}
